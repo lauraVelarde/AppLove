@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -61,13 +62,97 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #E95853;
-}
-
 .text-uppercase {
   text-transform: uppercase;
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+header{
+  height: 70px;
+  padding: 50px;
+}
+header a{
+    position: relative;
+    left:50px;
+    transform: translateY(-10%);
+    font-size: medium;
+    padding: 50px;
+    font-weight:900;
+}
+img[alt="logo"]{
+  position: absolute;
+  right: 50px;
+  top:10px;
+  width: 90px;
+  transform: translateY(-10%);
+}
+
+img[alt="home"]{
+  width: 100%;
+  position: relative;
+}
+.main{
+  position: absolute;
+  align:center;
+  top: 200px;
+  left: 400px;
+  color:#fff;
+ ;
+}
+.main a{
+  color: inherit;
+  padding: 10px;
+  background-color: #22D719;
+}
+a:hover {
+  color: #E95853;
+}
+
+#second{
+  text-align: center;
+  background-color: #FA8072;
+  margin-top: 0;
+  color: #FFF;
+
+}
+
+#second .text-uppercase{
+  margin: 10px;
+}
+
+.part{
+  display: inline-block;
+  margin: 100px;
+  line-height: 2px;
+}
+.part img{
+  width: 250px;
+}
+
+#third{
+  text-align: center;
+  
+}
+#third .text-uppercase{
+  padding: 10px;
+}
+
+img[alt="hero"]{
+  width: 800px;
+}
+
+.works{
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+ .works img{
+   width: 350px;
+ }
+ footer{
+   background-color: #000;
+   color: #fff;
+   height: 50px;
+   text-align: center;
+   }
