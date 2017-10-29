@@ -128,11 +128,6 @@ header figure {
   display: inline-block;
 }
 
-/*.main a{
-  color: inherit;
-  padding: 10px;
-  background-color: #22D719;
-}*/
 a:hover {
   color: #E95853;
 }

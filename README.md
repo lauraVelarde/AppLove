@@ -5,55 +5,21 @@
 * **Unidad:** _Maquetado web con HTML & CSS_
 
 ***
-Para completar tu web **AppLove** hemos creado este repositorio boilerplate (plantilla inicial) con todos los recursos que necesitas. Esto incluye las imágenes y algunas clases CSS que ya hemos creado para ti :)
+El objetivo de este curso es maquetar la web **AppLove**
 
-## Flujo de trabajo: Empieza por realizar un fork y clonar este repositorio
+## Estructura Html
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) de este repositorio
+1. Debemos empezar por la seccion **header** la cual contiene una barra de navegacion y una imagen.
+2. Luego iremos a la sección **AppLove-presentacion** la cual tiene una imagen de fondo con titulos, subtítulos y un boton.
+3. En la sección **Services** tenemos tres secciones, cada una primero contiene una imagen y posteriormente un título con tres subtítulos.
+4. En la última sección **Work**, tenemos una imagen principal y luego doce imagenes de los proyectos con sus respectivos nombres.
+5. Para finalizar en el **footer** solo teendremos el elemento **Copyrigh**
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar es `git clone` y su estructura normalmente se ve así:
+## Styles CSS
 
-    ```bash
-    git clone https://github.com/<nombre-de-usuario>/AppLove.git
-    ```
+-Utilizaremos las clases reutilizables.
+-Daremos position **fixed** al header para que sea estatico y siempre se muestre en la parte superior.
+-Definimos la posicion, medidas, colores de los siguientes elementos.
 
-## Objetivo
+## Producto final
 
-El reto consiste en maquetar la web **AppLove**, este es el resultado final:
-
-![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png) 
-
-## Detalles adicionales
-
-- Encontrarás un archivo base `index.html` el cual contiene una estructura inicial sobre la que deberás completar tu proyecto.
-
-- En la carpeta `css` tendrás un archivo base `main.css` donde hay clases reutilizables, quiere decir que dichas clases pueden ser usadas más de una vez. Por ejemplo: 
-
-    ```CSS
-    .text-uppercase {
-      text-transform: uppercase;
-    }
-    ```
-
-    >Si usamos la clase `.text-uppercase` en algún texto lo que hará es ponerlo en mayúsculas. De esta manera podrás reutilizar esta clase varias veces. **No olvides enlazar tu archivo `CSS` a tu `HTML`**.
-
-- El `header` tiene que estar **estático**, como se muestra en la siguiente _imagen gif_:
-
-![AppLove-gif](https://fotos.subefotos.com/da068e44cb72b36ba6c4458130c00185o.gif) 
-
-- Dentro de la carpeta `assets` se encuentra la carpeta `images` donde encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-- Deberás **actualizar el archivo `README.md`** explicando el contenido de tu repositorio.
-
-- El tipo de fuente a utilizar será `Raleway`.
-
-## Consideraciones generales
-
-Este reto sera evaluado sobre lo siguiente:
-
-- Pixel perfect (replicar el diseño con exactitud)
-- Nombramiento de clases, id, etc
-- Indentación
-- Estructura de tus archivos
-- Archivo `README.md` actualizado y correctamente redactado
-- Uso de comentarios para hacer tu código más legible
